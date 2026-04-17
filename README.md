@@ -2,6 +2,8 @@
 
 Molecular biologist, educator, and bioinformatics practitioner building reproducible computational workflows for genomics, transcriptomics, rare disease analysis, and clinical data harmonization.
 
+My portfolio is organized as an interconnected ecosystem of bioinformatics repositories rather than a set of isolated projects. The core framework emphasizes reproducibility, modular pipeline design, and transparent documentation, while individual repositories address specific layers of analysis such as variant annotation, gene set integration, transcriptomics, database-backed storage, and rare disease prioritization. Together, these projects reflect my transition from manual, domain-rich biological analysis toward more rigorous computational architecture, with a focus on clinically relevant genomics workflows and scalable research design.
+
 My work focuses on integrating biological insight with reproducible software pipelines using Python, Bash, SQL, and public biomedical datasets.
 
 ---
