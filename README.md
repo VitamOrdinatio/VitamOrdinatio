@@ -10,7 +10,7 @@ My portfolio is structured as an interconnected computational system rather than
 
 This diagram illustrates the structure of the portfolio and the flow of data across system layers.
 
-[🔗 architecture diagram ](assets/system_architecture.png)
+[🔗 Interactive architecture diagram](https://github.com/VitamOrdinatio/VitamOrdinatio/blob/main/assets/system_architecture.png)
 
 This portfolio is organized as a layered computational system:
 
