@@ -1,6 +1,8 @@
 # Gary Vanderlaan
 
-Computational biologist building reproducible, contract-driven bioinformatics systems for genomics, transcriptomics, rare disease analysis, and clinical data harmonization.
+Computational biologist building reproducible, contract-driven bioinformatics systems for genomics, transcriptomics, rare disease analysis, and clinical data harmonization.Computational biologist building reproducible, contract-driven bioinformatics systems for genomics, transcriptomics, rare disease analysis, and clinical data harmonization.
+
+This portfolio includes a working variant annotation pipeline (VAP) that executes end-to-end from raw whole-genome sequencing (WGS) FASTQ data through variant annotation on benchmark datasets (HG002, GIAB), alongside a broader system architecture for downstream data integration and clinical interpretation.
 
 My portfolio is structured as an interconnected computational system rather than a set of isolated projects, with clearly defined layers for data generation, storage, integration, and reasoning. The goal is to bridge domain-rich biological insight with rigorous computational architecture suitable for clinical and research environments.
 
@@ -9,6 +11,8 @@ My portfolio is structured as an interconnected computational system rather than
 ## System Architecture
 
 This diagram illustrates the structure of the portfolio and the flow of data across system layers.
+
+🔬 Layered computational system connecting molecular data → variant evidence → clinical reasoning
 
 ![System Architecture](https://github.com/VitamOrdinatio/VitamOrdinatio/blob/main/assets/system_architecture.png)
 
@@ -34,6 +38,10 @@ This portfolio is organized as a layered computational system:
 These layers interact through well-defined data and transformation contracts.
 
 ---
+
+## System Architecture
+
+The pipeline layer is actively implemented via VAP, with real execution artifacts available in the repository.
 
 ## Portfolio Repositories
 
@@ -126,8 +134,19 @@ I build computational workflows that are:
 
 ---
 
-## Status
+## Current System Status
 
-This portfolio is under active development, with a focus on building a fully integrated system for genomic and clinical data analysis.
+- **VAP (variant_annotation_pipeline)**  
+  Operational through Stage 07 (VEP annotation) on HG002 (GIAB benchmark dataset).  
+  Produces annotated variant-level outputs with QC metrics and representative artifacts available in the repository.
 
-Several repositories are currently in early implementation stages following detailed design and milestone mapping.
+- **RPF (reproducible_pipeline_framework)**  
+  Core framework scaffold established for modular, reproducible pipeline execution.
+
+- **VDB, GSC, RSP, RDGP**  
+  Under active design with defined system interfaces and contracts; implementation in progress.
+
+- **SeroStrat**  
+  Independent clinical data pipeline with pre-AI implementation and ongoing refactoring into the system architecture.
+
+This portfolio reflects a **hybrid state of execution and system design**, where core data-generation pipelines are operational and downstream layers are being implemented under a contract-driven architecture.
